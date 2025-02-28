@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d6ce51e3546f94a4ab70690dd88ad5b",
+    "content-hash": "108e34ad26d15c85828c4516fb1a32bb",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -313,6 +313,78 @@
                 "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.3"
             },
             "time": "2024-07-08T12:26:09+00:00"
+        },
+        {
+            "name": "digitlimit/alert",
+            "version": "dev-63-support-livewire-alpine-and-tailwind-as-the-default-theme",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/digitlimit/alert.git",
+                "reference": "b60a9a01e41f06d50f63e6e5c59009f25673028e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/digitlimit/alert/zipball/b60a9a01e41f06d50f63e6e5c59009f25673028e",
+                "reference": "b60a9a01e41f06d50f63e6e5c59009f25673028e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "laravel/framework": "^10.0 || ^11.0 || ^12.0",
+                "livewire/livewire": "^2.12 || ^3.6",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.21",
+                "orchestra/testbench": "^8.0 || ^9.0 || ^10.0",
+                "pestphp/pest": "^3.7"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "Alert": "Digitlimit\\Alert\\Facades\\Alert"
+                    },
+                    "providers": [
+                        "Digitlimit\\Alert\\AlertServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers.php"
+                ],
+                "psr-4": {
+                    "Digitlimit\\Alert\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emeka Mbah",
+                    "email": "frankemeks77@yahoo.com",
+                    "homepage": "https://emekambah.medium.com"
+                }
+            ],
+            "description": "An easy way of flashing messages in Laravel Application, with support for Livewire, Inertia, TailwindCSS, and Bootstrap.",
+            "homepage": "https://github.com/digitlimit/alert",
+            "keywords": [
+                "error bags",
+                "errors",
+                "flash",
+                "laravel",
+                "messages",
+                "validation",
+                "views"
+            ],
+            "support": {
+                "issues": "https://github.com/digitlimit/alert/issues",
+                "source": "https://github.com/digitlimit/alert/tree/63-support-livewire-alpine-and-tailwind-as-the-default-theme"
+            },
+            "time": "2025-02-28T14:54:26+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -9624,7 +9696,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "digitlimit/alert": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

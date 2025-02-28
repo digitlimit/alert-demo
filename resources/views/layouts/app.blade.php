@@ -34,12 +34,15 @@
 
             <!-- Page Content -->
             <main>
+{{--                <livewire::alert-message />--}}
                 {{ $slot }}
             </main>
         </div>
 
         @stack('modals')
-
         @livewireScripts
+
+        <livewire:alert-modal />
+        <livewire:alert-notify />
     </body>
 </html>

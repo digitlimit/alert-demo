@@ -19,9 +19,12 @@
     </head>
     <body>
         <div class="font-sans text-gray-900 dark:text-gray-100 antialiased">
+            <livewire:alert-message />
             {{ $slot }}
         </div>
 
         @livewireScripts
+        <livewire:alert-modal />
+        <livewire:alert-notify />
     </body>
 </html>
