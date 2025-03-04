@@ -7,7 +7,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "digitlimit/alert": "dev-63-support-livewire-alpine-and-tailwind-as-the-default-theme",
+        "digitlimit/alert": "dev-main",
         "laravel/framework": "^12.0",
         "laravel/jetstream": "^5.3",
         "laravel/sanctum": "^4.0",

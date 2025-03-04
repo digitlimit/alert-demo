@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "108e34ad26d15c85828c4516fb1a32bb",
+    "content-hash": "1b5f8c236134c896f82ce24f2ca683b9",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -316,16 +316,16 @@
         },
         {
             "name": "digitlimit/alert",
-            "version": "dev-63-support-livewire-alpine-and-tailwind-as-the-default-theme",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitlimit/alert.git",
-                "reference": "b60a9a01e41f06d50f63e6e5c59009f25673028e"
+                "reference": "a44bd10645779e0c9637bf4b2be01e8b8c03fd05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digitlimit/alert/zipball/b60a9a01e41f06d50f63e6e5c59009f25673028e",
-                "reference": "b60a9a01e41f06d50f63e6e5c59009f25673028e",
+                "url": "https://api.github.com/repos/digitlimit/alert/zipball/a44bd10645779e0c9637bf4b2be01e8b8c03fd05",
+                "reference": "a44bd10645779e0c9637bf4b2be01e8b8c03fd05",
                 "shasum": ""
             },
             "require": {
@@ -336,9 +336,10 @@
             },
             "require-dev": {
                 "laravel/pint": "^1.21",
-                "orchestra/testbench": "^8.0 || ^9.0 || ^10.0",
+                "orchestra/testbench": "^10.0",
                 "pestphp/pest": "^3.7"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -382,9 +383,9 @@
             ],
             "support": {
                 "issues": "https://github.com/digitlimit/alert/issues",
-                "source": "https://github.com/digitlimit/alert/tree/63-support-livewire-alpine-and-tailwind-as-the-default-theme"
+                "source": "https://github.com/digitlimit/alert/tree/main"
             },
-            "time": "2025-02-28T14:54:26+00:00"
+            "time": "2025-03-02T23:22:42+00:00"
         },
         {
             "name": "doctrine/inflector",

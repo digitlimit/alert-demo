@@ -23,6 +23,10 @@ class UpdateUserProfileInformation implements UpdatesUserProfileInformation
             'photo' => ['nullable', 'mimes:jpg,jpeg,png', 'max:1024'],
         ])->validateWithBag('updateProfileInformation');
 
+        modal('This is a test message', 'Thanks!')
+            ->action('Okay', '/')
+            ->cancel('Cancel', '/');
+
         if (isset($input['photo'])) {
             $user->updateProfilePhoto($input['photo']);
         }
