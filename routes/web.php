@@ -15,6 +15,7 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified',
 
             notify('This is a test message', 'Thanks!')
                 ->topLeft();
+
 //
 //            modal('This is a test message', 'Thanks!')
 //                ->action('Okay', '/')
