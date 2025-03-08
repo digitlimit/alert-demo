@@ -38,7 +38,7 @@
 
             <!-- Page Content -->
             <main>
-{{--                <livewire::alert-message />--}}
+                <livewire:alert-message />
                 {{ $slot }}
             </main>
         </div>
