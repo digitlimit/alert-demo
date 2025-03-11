@@ -11,9 +11,14 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified',
     {
 
         Route::get('/dashboard', function () {
-//            alert('This is a test message', 'Thanks!');
+            alert('This is a test message', 'Thanks!');
+
+//            toastr('This is a test message', 'Thanks!')
+//                ->error()
+//                ->topLeft();
 
             notify('This is a test message', 'Thanks!')
+                ->success()
                 ->topLeft();
 
 //
