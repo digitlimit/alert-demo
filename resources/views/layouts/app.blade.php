@@ -57,9 +57,9 @@
 
         <livewire:alert-modal />
         <livewire:alert-toastr />
-{{--        <livewire:alert-notify />--}}
+        <livewire:alert-notify />
 
-        <x-notify />
+{{--        <x-notify />--}}
 
     </body>
 </html>
