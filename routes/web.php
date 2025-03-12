@@ -18,10 +18,13 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified',
 //                ->topLeft();
 
             notify('This is a test message', 'Thanks!')
-                ->success()
-                ->topLeft();
+                ->warning()
+                ->action('Okay')
+                ->cancel('Cancel')
+                ->topLeft()
+                ->flash();
 
-//
+
 //            modal('This is a test message', 'Thanks!')
 //                ->action('Okay', '/')
 //                ->cancel('Cancel', '/');
