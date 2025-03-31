@@ -20,16 +20,6 @@
 
         <!-- Styles -->
         @livewireStyles
-        <style>
-            @keyframes progress-bar {
-                from { width: 0%; }
-                to { width: 100%; }
-            }
-
-            .animate-width {
-                animation: progress-bar 5s linear forwards;
-            }
-        </style>
     </head>
     <body class="font-sans antialiased">
         <x-banner />
@@ -58,8 +48,5 @@
         <livewire:alert-modal />
         <livewire:alert-toastr />
         <livewire:alert-notify />
-
-{{--        <x-notify />--}}
-
     </body>
 </html>

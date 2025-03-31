@@ -23,9 +23,43 @@ class UpdateUserProfileInformation implements UpdatesUserProfileInformation
             'photo' => ['nullable', 'mimes:jpg,jpeg,png', 'max:1024'],
         ])->validateWithBag('updateProfileInformation');
 
-        modal('This is a test message', 'Thanks!')
-            ->action('Okay', '/')
-            ->cancel('Cancel', '/');
+        field('name', 'Name is required')
+            ->timeout(1000)
+            ->error();
+
+        field('email', 'Email is required')
+            ->timeout(1000)
+            ->error();
+
+        alert('Go get it chap!', 'Thanks!')
+        ->success();
+
+        alert('That is very bad', 'Opps!')
+            ->error();
+
+            toastr('This is a test message', 'Thanks!')
+                ->success()
+                ->topLeft();
+
+//        notify('This is a test message', 'Thanks!')
+//            ->id('stage')
+//            ->warning()
+//            ->action('Okay')
+//            ->cancel('Cancel')
+//            ->timeout(10000);
+//
+//        notify('Lets get started', 'Thanks!')
+//            ->id('test')
+//            ->warning()
+//            ->action('Okay')
+//            ->cancel('Cancel')
+//            ->timeout(10000);
+
+
+//            modal('This is a test message', 'Thanks!')
+//                ->action('Okay', '/')
+//                ->cancel('Cancel', '/');
+
 
         if (isset($input['photo'])) {
             $user->updateProfilePhoto($input['photo']);

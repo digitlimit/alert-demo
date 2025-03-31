@@ -320,12 +320,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitlimit/alert.git",
-                "reference": "8b6fc17e3e86ccf30a11892168dd2e6e858125a2"
+                "reference": "e2c2412a55568750995d1e884c20811386cdb207"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digitlimit/alert/zipball/8b6fc17e3e86ccf30a11892168dd2e6e858125a2",
-                "reference": "8b6fc17e3e86ccf30a11892168dd2e6e858125a2",
+                "url": "https://api.github.com/repos/digitlimit/alert/zipball/e2c2412a55568750995d1e884c20811386cdb207",
+                "reference": "e2c2412a55568750995d1e884c20811386cdb207",
                 "shasum": ""
             },
             "require": {
@@ -384,7 +384,7 @@
                 "issues": "https://github.com/digitlimit/alert/issues",
                 "source": "https://github.com/digitlimit/alert/tree/63-support-livewire-alpine-and-tailwind-as-the-default-theme"
             },
-            "time": "2025-03-12T00:30:11+00:00"
+            "time": "2025-03-30T12:14:16+00:00"
         },
         {
             "name": "doctrine/inflector",

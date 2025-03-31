@@ -67,19 +67,19 @@
 }
 
 .alert-field.success {
-  @apply p-3 text-green-800;
+  @apply pt-2 text-green-800;
 }
 
 .alert-field.error {
-  @apply p-3 text-red-800;
+  @apply pt-2 text-red-800;
 }
 
 .alert-field.warning {
-  @apply p-3 text-yellow-800;
+  @apply pt-2 text-yellow-800;
 }
 
 .alert-field.info {
-  @apply p-3 text-blue-800;
+  @apply pt-2 text-blue-800;
 }
 
 .alert-message {
@@ -276,7 +276,7 @@
 }
 .notify-container .notify-progress {
   @apply absolute inset-0 animate-width bg-gray-700;
-  animation: progress-bar 5s linear forwards;
+  animation: progress-bar 10s linear forwards;
 }
 
 .alert-modal {
