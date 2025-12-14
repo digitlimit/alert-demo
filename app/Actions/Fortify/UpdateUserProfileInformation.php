@@ -23,23 +23,23 @@ class UpdateUserProfileInformation implements UpdatesUserProfileInformation
             'photo' => ['nullable', 'mimes:jpg,jpeg,png', 'max:1024'],
         ])->validateWithBag('updateProfileInformation');
 
-        field('name', 'Name is required')
-            ->timeout(1000)
-            ->error();
+//        field('name', 'Name is required')
+//            ->timeout(1000)
+//            ->error();
+//
+//        field('email', 'Email is required')
+//            ->timeout(1000)
+//            ->error();
+//
+//        alert('Go get it chap!', 'Thanks!')
+//        ->success();
+//
+//        alert('That is very bad', 'Opps!')
+//            ->error();
 
-        field('email', 'Email is required')
-            ->timeout(1000)
-            ->error();
-
-        alert('Go get it chap!', 'Thanks!')
-        ->success();
-
-        alert('That is very bad', 'Opps!')
-            ->error();
-
-            toastr('This is a test message', 'Thanks!')
-                ->success()
-                ->topLeft();
+        toastr('This is a test message', 'Thanks!')
+            ->success()
+            ->topLeft();
 
 //        notify('This is a test message', 'Thanks!')
 //            ->id('stage')

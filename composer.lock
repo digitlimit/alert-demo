@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1be3452f2e40543b243e60d970db22d9",
+    "content-hash": "a05dbef7149f5a15fb2e3f7dd861c1e2",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -316,16 +316,16 @@
         },
         {
             "name": "digitlimit/alert",
-            "version": "dev-63-support-livewire-alpine-and-tailwind-as-the-default-theme",
+            "version": "dev-feat/use-inline-tailwind",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitlimit/alert.git",
-                "reference": "04d0e098435d18d1087b4e3b584089977989f9ac"
+                "reference": "94d972eced25ab7f84775e1d8adf09d89fa60687"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digitlimit/alert/zipball/04d0e098435d18d1087b4e3b584089977989f9ac",
-                "reference": "04d0e098435d18d1087b4e3b584089977989f9ac",
+                "url": "https://api.github.com/repos/digitlimit/alert/zipball/94d972eced25ab7f84775e1d8adf09d89fa60687",
+                "reference": "94d972eced25ab7f84775e1d8adf09d89fa60687",
                 "shasum": ""
             },
             "require": {
@@ -382,9 +382,9 @@
             ],
             "support": {
                 "issues": "https://github.com/digitlimit/alert/issues",
-                "source": "https://github.com/digitlimit/alert/tree/63-support-livewire-alpine-and-tailwind-as-the-default-theme"
+                "source": "https://github.com/digitlimit/alert/tree/feat/use-inline-tailwind"
             },
-            "time": "2025-04-15T21:28:48+00:00"
+            "time": "2025-06-07T18:26:51+00:00"
         },
         {
             "name": "doctrine/inflector",
